@@ -762,7 +762,7 @@ ul {
     }
 }
 
-@media (min-width: 380px) and (max-width: 605px) {
+@media (min-width: 350px) and (max-width: 605px) {
     html {
         font-size: 10px;
     }
@@ -789,6 +789,10 @@ ul {
     .introduction__content {
         padding-top: 8rem;
         flex-direction: column;
+    }
+
+    .introduction__title {
+        font-size: 3.5rem;
     }
 
     .introduction__text-block {
